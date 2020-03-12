@@ -31,7 +31,7 @@ services:
       - mongo
     labels:
       - "traefik.enable=true"
-      - "traefik.basic.frontend.rule=Host:private.caltech.edu"
+      - "traefik.basic.frontend.rule=Host:"
       - "traefik.basic.port=4000"
       - "traefik.basic.protocol=http"
 
